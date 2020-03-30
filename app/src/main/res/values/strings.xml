@@ -1,0 +1,97 @@
+<resources>
+    <!-- Tela Splash-->
+
+    <string name="txtAppNome">T R Y I N G</string>
+    <string name="txtAppNome2">Created by:</string>
+
+    <!-- Bem Vinda-->
+
+    <string name="app_name">T R Y I N G</string>
+    <string name="txtTitulo">Seja Bem-vinda</string>
+    <string name="btnCadastro">Cadasto Novo Usuário</string>
+    <string name="txtHoraAtual">09:51:00</string>
+    <string name="txtDataAtual">15/03/2020</string>
+    <string name="btnVoltarPrincipal">VOLTAR AO LOGIN</string>
+    <string name="btnMeusDados">MEUS DADOS</string>
+    <string name="btnAtualizarDados">ATUALIZAR MEUS DADOS</string>
+    <string name="btnExcluirConta">EXCLUIR CONTA</string>
+    <string name="btnConsultaCliente">CONSULTA DE CLIENTES</string>
+    <string name="btnSairAplicativo">SAIR DO APLICATIVO</string>
+    <string name="txtNomeCliente">nome do cliente</string>
+
+
+    <!-- Cadastro de Usuário-->
+
+    <string name="txtCadastro">CREDENCIAL DE ACESSO</string>
+    <string name="txtNome">Nome</string>
+    <string name="edtNome">Digite seu nome</string>
+    <string name="txtEmail">E-mail</string>
+    <string name="edtEmail">Digite seu e-mail</string>
+    <string name="txtSenha">Senha</string>
+    <string name="edtSenha">Digite sua senha</string>
+    <string name="txtRepitaSenha">Repita sua Senha</string>
+    <string name="edtRepitaSenha">Confirme sua senha</string>
+    <string name="btnCadastro2">CADASTRAR</string>
+    <string name="ckboxTermos">Li e concordo com os termos de política de privacidade.</string>
+    <string name="btnVoltar">Voltar</string>
+
+    <!-- Tela Login-->
+
+    <string name="txtLogin">LOGIN</string>
+    <string name="txtEmailLogin">E-mail</string>
+    <string name="edtEmailLogin">Digite seu e-mail</string>
+    <string name="txtSenhaLogin">Senha</string>
+    <string name="edtSenhaLogin">Digite sua senha</string>
+    <string name="ckboxLembrarLogin">Lembrar</string>
+    <string name="txtRecuperarSenhaLogin">Recuperar Senha</string>
+    <string name="btnAcessar">ACESSAR</string>
+    <string name="btnCadastrarLogin">CADASTRAR</string>
+    <string name="txtVersaoApp">Versão V1.0</string>
+    <string name="txtLerPolitica">Ler Política de Privacidade e Termos de Uso.</string>
+
+    <!-- Cadastro de Cliente-->
+
+    <string name="txtCadastroCliente">CADASTRO NOVO CLIENTE</string>
+    <string name="txtPrimeiroNome">Primeiro Nome</string>
+    <string name="txtSobreNome">Sobre Nome</string>
+    <string name="edtPrimeiroNome">Digite seu primeiro nome</string>
+    <string name="edtSobreNome">Digite seu sobre nome</string>
+    <string name="ckboxPessoaFisica">Pessoa Física</string>
+    <string name="btnSalvarContinuar">SALVAR E CONTINUAR</string>
+    <string name="btnCancelar">CANCELAR</string>
+
+    <!-- CPF-->
+
+    <string name="txtCadastroPessoaFisica">CADASTRO PESSOA FISICA</string>
+    <string name="txtCPF">CPF</string>
+    <string name="edtCPF">Digite seu CPF</string>
+    <string name="txtNomeCompleto">Nome Completo</string>
+    <string name="edtNomeCompleto">Nome completo igual ao CPF</string>
+    <string name="btnSalvarContinuarCPF">SALVAR E CONTINUAR</string>
+    <string name="btnCancelarCPF">CANCELAR</string>
+    <string name="btnVoltarCPF">VOLTAR</string>
+
+    <!-- CNPJ-->
+
+    <string name="txtCadastroPessoaJuridica">CADASTRO PESSOA JURIDICA</string>
+    <string name="txtCNPJ">CNPJ</string>
+    <string name="edtCNPJ">Digite seu CNPJ</string>
+    <string name="txtRazaoSocial">Razão Social</string>
+    <string name="edtRazaoSocial">Razão Social igual ao CNPJ</string>
+    <string name="txtDataAbertura">Data de Abertura da Empresa</string>
+    <string name="edtDataAbertura">Data de abertura igual ao CNPJ</string>
+    <string name="ckboxSimplesNacional">Simples Nacional</string>
+    <string name="ckboxMEI">MEI</string>
+    <string name="btnSalvarContinuarCNPJ">SALVAR E CONTINUAR</string>
+    <string name="btnCancelarCNPJ">CANCELAR</string>
+    <string name="btnVoltarCNPJ">VOLTAR</string>
+
+    <!-- Recuperar Senha-->
+    <string name="txtCadastroClienteRS">CADASTRO RECUPERAR SENHA</string>
+    <string name="txtEMAILRS">E-mail</string>
+    <string name="edtEMAILRS">Digite o e-mail cadastrado</string>
+    <string name="btnRecuperar">RECUPERAR</string>
+    <string name="btnVoltarRS">VOLTAR</string>
+
+</resources>
+

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".PessoaJuridicaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCadastroPessoaJuridica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:text="@string/txtCadastroPessoaJuridica"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bungee_shade"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtCNPJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtCNPJ"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtCNPJ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="15"
+                android:hint="@string/edtCNPJ"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txtRazaoSocial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtRazaoSocial"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtRazaoSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="15"
+                android:hint="@string/edtRazaoSocial"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/txtDataAbertura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtDataAbertura"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtDataAbertura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="15"
+                android:hint="@string/edtDataAbertura"
+                android:inputType="date" />
+
+            <CheckBox
+                android:id="@+id/ckboxSimplesNacional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:onClick="simplesNacional"
+                android:text="@string/ckboxSimplesNacional"
+                android:textSize="18sp"
+                tools:ignore="OnClick" />
+
+
+            <CheckBox
+                android:id="@+id/ckboxMEI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="MEI"
+                android:text="@string/ckboxMEI"
+                android:textSize="18sp"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/btnSalvarContinuarCNPJ"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/btnSalvarContinuarCPF" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVoltarCNPJ"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/btnVoltarCPF" />
+
+            <Button
+                android:id="@+id/btnCancelarCNPJ"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/btnCancelarCPF" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>

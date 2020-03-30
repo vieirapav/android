@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".CadastroClienteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtCadastroCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:text="@string/txtCadastroCliente"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/bungee_shade"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtPrimeiroNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/txtPrimeiroNome"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtPrimeiroNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="15"
+                android:hint="@string/edtPrimeiroNome"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtSobreNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/txtSobreNome"
+                android:textColor="@color/colorTextTituloDark"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtSobreNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="15"
+                android:hint="@string/edtSobreNome"
+                android:inputType="textPersonName" />
+
+
+            <CheckBox
+                android:id="@+id/ckboxPessoaFisica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="pessoasFisica"
+                android:text="@string/ckboxPessoaFisica"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:textSize="18sp"
+                tools:ignore="OnClick"
+                android:layout_marginLeft="20dp" />
+
+            <Button
+                android:id="@+id/btnSalvarContinuar"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="80dp"
+                android:text="@string/btnSalvarContinuar" />
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/btnCancelar"
+                android:layout_marginLeft="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
