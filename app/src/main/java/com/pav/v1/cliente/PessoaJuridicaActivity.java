@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import android.widget.Toast;
 
+import com.pav.v1.cliente.api.AppUtil;
 import com.pav.v1.cliente.model.Cliente;
 import com.pav.v1.cliente.model.ClientePJ;
 import com.shashank.sony.fancydialoglib.Animation;

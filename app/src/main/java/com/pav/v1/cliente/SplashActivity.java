@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
-import android.widget.TextView;
+
+import com.pav.v1.cliente.api.AppUtil;
 
 public class SplashActivity extends AppCompatActivity {
    private SharedPreferences preferences;
@@ -51,7 +51,7 @@ public class SplashActivity extends AppCompatActivity {
                 return;
 
             }
-        },AppUtil.TIME_SPLASH);
+        }, AppUtil.TIME_SPLASH);
 
     }
 

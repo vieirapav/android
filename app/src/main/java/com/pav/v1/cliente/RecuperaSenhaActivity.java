@@ -7,14 +7,11 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import android.os.Bundle;
-
-import java.security.KeyStore;
+import com.pav.v1.cliente.api.AppUtil;
 
 public class RecuperaSenhaActivity extends AppCompatActivity {
 

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecuperaSenhaActivity"></activity>
+        <activity android:name=".view.ConsultarClientesActivity"></activity>
+        <activity android:name=".RecuperaSenhaActivity" />
         <activity android:name=".PessoaJuridicaActivity" />
         <activity android:name=".PessoaFisicaActivity" />
         <activity android:name=".CadastroClienteActivity" />

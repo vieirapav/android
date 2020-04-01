@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,6 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.pav.v1.cliente.api.AppUtil;
 import com.pav.v1.cliente.model.Cliente;
 import com.pav.v1.cliente.model.ClientePF;
 import com.pav.v1.cliente.model.ClientePJ;
@@ -21,7 +21,8 @@ import com.shashank.sony.fancydialoglib.FancyAlertDialog;
 import com.shashank.sony.fancydialoglib.FancyAlertDialogListener;
 import com.shashank.sony.fancydialoglib.Icon;
 
-import org.w3c.dom.Text;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private SharedPreferences preferences;
 
+    List<Cliente> clienteList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initFormulario();
+
+        buscarListaClientes();
+
 
         //btnSairAplicativo.setOnClickListener(new View.OnClickListener() {
             //@Override
@@ -64,6 +69,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void buscarListaClientes() {
+
+        clienteList = new ArrayList<>();
+        clienteList.add(cliente);
+
+        Cliente novoCliente01 = new Cliente();
+        novoCliente01.setPrimeiroNome("Novo Cliente 01");
+
+        clienteList.add(novoCliente01);
+
+        Cliente novoCliente02 = new Cliente();
+        novoCliente01.setPrimeiroNome("Novo Cliente 02");
+
+        clienteList.add(novoCliente02);
+
+        for (Cliente obj:clienteList) {
+
+            Log.i(AppUtil.LOG_APP,"Obj: "+ obj.getPrimeiroNome());
+
+        }
     }
 
     private void initFormulario() {

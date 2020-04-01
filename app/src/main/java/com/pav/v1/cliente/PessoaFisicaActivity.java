@@ -8,14 +8,12 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
-import android.os.Bundle;
-
+import com.pav.v1.cliente.api.AppUtil;
 import com.pav.v1.cliente.model.Cliente;
 import com.pav.v1.cliente.model.ClientePF;
 import com.shashank.sony.fancydialoglib.Animation;

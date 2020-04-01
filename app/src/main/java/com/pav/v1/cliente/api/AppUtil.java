@@ -1,4 +1,4 @@
-package com.pav.v1.cliente;
+package com.pav.v1.cliente.api;
 
 import java.util.Calendar;
 
