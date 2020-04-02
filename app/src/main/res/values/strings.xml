@@ -93,5 +93,9 @@
     <string name="btnRecuperar">RECUPERAR</string>
     <string name="btnVoltarRS">VOLTAR</string>
 
+    <!-- Recuperar Senha-->
+
+    <string name="txtCliente">Cliente</string>
+
 </resources>
 
